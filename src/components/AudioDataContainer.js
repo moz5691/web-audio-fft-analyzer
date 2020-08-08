@@ -35,7 +35,7 @@ export default function AudioDataContainer() {
 
   return (
     <div>
-      <div style={{ textAlign: "center", margin: "20px", padding: "10px" }}>
+      <div style={{ textAlign: "center", margin: "20px" }}>
         <Button
           variant="contained"
           onClick={() => initializeAudioAnalyser(GummyBearz)}
